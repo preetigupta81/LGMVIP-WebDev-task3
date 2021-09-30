@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Slabo 27px', serif;
+}
+body{
+    font-size: 30px;
+    font-weight: 600;
+    overflow-x: hidden;
+    color: black;
+    font-family: 'Flamenco', cursive;
+}
+.main-content{
+    width: 600px;
+    height: 630px;
+    border: 2px solid black;
+}
+.table{
+    margin: auto 200px ;    
+}
+.table tr{
+    font-size:20px;
+    margin-left: 330px;
+    
+}
+.table2 th{
+    border-top: 1px solid transparent;
+    width: 6%;
+    font-size: 19px;
+   
+}
+h1{
+    margin-left: 490px;
+}
+.table2{
+    margin-top: 20px;
+    border-top: 3px dashed black;
+    border-bottom: 3px dashed black;  
+}
+.colorchange{
+    animation: colorchange 2s infinite;
+    font-size: 24px;
+    
+}
+@keyframes colorchange{
+    0%{color:#cc0066;}
+    25%{color:#0000ff;}
+    75%{color:#cc0066;}
+    100%{color: #0000ff;}
+}
+.colorchange1{
+    animation: colorchange1 2s infinite;
+    font-size: 44px;
+    
+}
+@keyframes colorchange1{
+    0%{color:red;}
+    25%{color:green;}
+    75%{color:#009900}
+    100%{color:#ff6600;}
+}
+p{
+    margin-top: 20px;   
+}

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Slabo 27px', serif;
+}
+body{
+    height: 700px;
+    width: 100%;
+    background-image:url('https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80');    background-size: cover;
+    background-repeat: no-repeat;
+    /* overflow: hidden; */
+}
+.main-content{
+    background-color:transparent;
+    height: 250px;
+    width: 50%;
+    border: 3px solid black;
+    border-radius: 7px;
+    opacity: 5;
+    text-align: center; 
+    margin:auto;
+    margin-top: 160px;
+}
+
+.main-content h2{
+    color: #fff;
+    font-family:cursive ;
+    font-weight: bold;
+    font-style: oblique;
+    padding: 1rem;
+}
+h2:hover{
+    color: black;
+}
+.navbar{
+    height: 80px;
+    background-color: #5F9EA0;
+}
+.navbar:hover{
+    background-color: #696969;
+}
+.navbar-brand {
+    font-style: italic;
+    font-size: 30px;
+}
+.navbar-nav {
+    display: inline-block;
+    margin-left: 750px;
+  }
+.nav-item li a{
+    margin-right: 700px;
+    float: left;
+}
